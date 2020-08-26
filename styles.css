@@ -88,6 +88,13 @@ padding: 0.7rem 0 0.7rem 0;
 .nav-item{
   padding : 0 18px;
 }
+.call{
+  font-size: 2.3rem;
+
+font-family: "Josefin Sans";
+letter-spacing: 4px;
+  font-weight: 600;
+}
 .nav-link{
   font-size: 1.2rem;
 
