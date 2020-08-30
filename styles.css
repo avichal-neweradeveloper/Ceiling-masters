@@ -36,7 +36,7 @@ p{
   /* z-index: 1;*/ /*not necessarary to use withot it the code also works */
 }
 /* testimonial section */
-#testimonials{
+#review{
   text-align: center;
   background-color: #ffdfbe;
   padding-top: 7%;
@@ -44,28 +44,19 @@ p{
 #background-img{
   width:100%;
 }
-#press{
-  background-color: #ef8172;
-  text-align: center;
-  padding-bottom: 3%;
-}
 /* pricing section */
-#pricing{
+#our-work{
   background-color: #e6dbd5;
   padding: 100px;
   text-align: center;
 }
 /* cta section */
-#cta{
-  background-color: #ff4c68;
-  color:  #fff;
-  padding: 7% 15%;
+#contact-us{
+  background-color: #ffdfbe;
+  padding: 7% 10% 0 10%;
   text-align: center;
 }
-#footer{
-  padding: 7% 15%;
-  text-align: center;
-}
+
 /*****************CLASS SELECTORS*****************/
 
 .container-fluid{
@@ -86,6 +77,50 @@ p{
   font-family: "Amaranth";
   font-weight: 400;
   letter-spacing: 3px;
+}
+.item-link{
+  color: #606060;
+  font-size: 2.5rem;
+  font-family: "Josefin Sans";
+  font-weight: 300;
+  letter-spacing: 8px;
+    text-decoration: none;
+    margin: 10px 20px;
+    display: inline-block;
+}
+.item-link:hover {
+color: black;
+  text-decoration: none;
+}
+
+.item-des-link{
+  color: #606060;
+  font-size: 1.5rem;
+  font-family: "Amaranth";
+  font-weight: 400;
+  letter-spacing: 3px;
+    text-decoration: none;
+    margin: 10px 20px 20% 10px;
+    display: inline-block;
+}
+.item-des-link:hover {
+color: black;
+}
+.link-img:hover {
+filter: brightness(1.75);
+}
+#small-img:hover {
+filter: brightness(1.75);
+}
+img{
+  text-align: center;
+  width: 7rem;
+}
+
+.link-text{
+  text-align: center;
+ width:100%;
+ display: block;
 }
 /* Navigation bar */
 .navbar{
@@ -112,7 +147,6 @@ padding: 0.7rem 0 0.7rem 0;
 }
 .call{
   font-size: 2.3rem;
-
 font-family: "Josefin Sans";
 letter-spacing: 4px;
   font-weight: 600;
@@ -175,6 +209,17 @@ letter-spacing: 4px;
 .list-items{
   margin: 20% 0;
 }
+.contact-div{
+  width: 40%;
+  display: inline-block;
+  margin: 10% 5% 5%;
+}
+.contact-div-2{
+  width: 40%;
+  float: right;
+  display:inline-block;
+  margin: 10% 5% 5%;
+}
 .cta-heading{
   /* font-family: 'Montserrat', sans-serif; */
   font-weight: 900;
@@ -183,7 +228,6 @@ letter-spacing: 4px;
 .social-icon{
   margin: 20px 10px;
 }
-
 
 /* title image */
 .title-image{
